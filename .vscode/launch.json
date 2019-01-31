@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FourSum",
+      "request": "launch",
+      "mainClass": "FourSum"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - GetUserInput",
+      "request": "launch",
+      "mainClass": "GetUserInput"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FindMedianSortedArrays",
+      "request": "launch",
+      "mainClass": "FindMedianSortedArrays"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LogestSubStringWithoutRepeatingCharacters",
+      "request": "launch",
+      "mainClass": "LogestSubStringWithoutRepeatingCharacters"
+    }
+  ]
+}
