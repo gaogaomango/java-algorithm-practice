@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Stack;
 
 class IsValidBrackets {
   public static void main(String[] args) {
@@ -12,6 +13,7 @@ class IsValidBrackets {
   }
 
   private void run() {
+    equalsTest("", true);
     equalsTest("()", true);
     equalsTest("()[]{}", true);
     equalsTest("(]", false);
@@ -20,9 +22,48 @@ class IsValidBrackets {
   }
 
   public boolean isValid(String s) {
-    boolean result = false;
+    int length = s.length();
+    if (length % 2 != 0) {
+      return false;
+    }
 
-    return result;
+    Stack<Character> stack = new Stack<>();
+    for (int i = 0; i < length; i++) {
+      Character c = s.charAt(i);
+      if (isLeftPart(c)) {
+        stack.push(c);
+      } else {
+        // no pair for this right part
+        if (stack.empty()) {
+          return false;
+        }
+
+        if (!isCouple(stack.pop(), c)) {
+          return false;
+        }
+      }
+    }
+
+    if (stack.empty()) {
+      return true;
+    }
+
+    return false;
+  }
+
+  private boolean isLeftPart(Character c) {
+    if (c == '(' || c == '{' || c == '[') {
+      return true;
+    }
+
+    return false;
+  }
+
+  private boolean isCouple(Character pop, Character c) {
+    if ((c == ')' && pop == '(') || (c == '}' && pop == '{') || (c == ']' && pop == '[')) {
+      return true;
+    }
+    return false;
   }
 
   private void equalsTest(String s, boolean expectation) {
