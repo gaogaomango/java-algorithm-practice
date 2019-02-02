@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - GenerateParentheses",
+      "request": "launch",
+      "mainClass": "GenerateParentheses"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - RemoveNthFromEnd",
       "request": "launch",
       "mainClass": "RemoveNthFromEnd"
