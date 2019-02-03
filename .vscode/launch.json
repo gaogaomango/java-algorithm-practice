@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ReverseKGroup",
+      "request": "launch",
+      "mainClass": "ReverseKGroup"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - GenerateParentheses",
       "request": "launch",
       "mainClass": "GenerateParentheses"
