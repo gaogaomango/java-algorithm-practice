@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DivideTwoIntegers",
+      "request": "launch",
+      "mainClass": "DivideTwoIntegers"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - RemoveDuplicates",
       "request": "launch",
       "mainClass": "RemoveDuplicates"
