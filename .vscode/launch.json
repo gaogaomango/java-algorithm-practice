@@ -2,6 +2,18 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - NextPermutation",
+      "request": "launch",
+      "mainClass": "NextPermutation"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FindSubstring",
+      "request": "launch",
+      "mainClass": "FindSubstring"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - DivideTwoIntegers",
       "request": "launch",
       "mainClass": "DivideTwoIntegers"
