@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ValidSudoku",
+      "request": "launch",
+      "mainClass": "ValidSudoku",
+      "projectName": "leetCode_3e08a92f"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SearchInsertPosition",
       "request": "launch",
       "mainClass": "SearchInsertPosition",

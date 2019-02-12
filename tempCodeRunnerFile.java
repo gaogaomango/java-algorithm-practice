@@ -1,4 +1,6 @@
-    test(new int[] { 1, 3, 5, 6 }, 5, 2);
-    test(new int[] { 1, 3, 5, 6 }, 2, 1);
-    test(new int[] { 1, 3, 5, 6 }, 7, 4);
-    test(new int[] { 1, 3, 5, 6 }, 0, 0);
+  // private static int HORIZONTAL_SUDOKU_PILE = 3;
+  // private static int VERTICAL_SUDOKU_PILE = 3;
+  // private static int HORIZONTAL_SUDOKU = 3;
+  // private static int VERTICAL_SUDOKU = 3;
+
+  // private Map<Integer, Boolean> statusMap = new HashMap<>();
