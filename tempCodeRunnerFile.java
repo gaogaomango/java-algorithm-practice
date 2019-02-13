@@ -1,6 +1,14 @@
-  // private static int HORIZONTAL_SUDOKU_PILE = 3;
-  // private static int VERTICAL_SUDOKU_PILE = 3;
-  // private static int HORIZONTAL_SUDOKU = 3;
-  // private static int VERTICAL_SUDOKU = 3;
-
-  // private Map<Integer, Boolean> statusMap = new HashMap<>();
+    // if (result != exp) {
+    // System.out.println("Error! input: ");
+    // for (char[] ca : board) {
+    // StringBuilder sb = new StringBuilder();
+    // for (char c : ca) {
+    // if (sb.length() != 0) {
+    // sb.append(" ");
+    // }
+    // sb.append(c);
+    // }
+    // System.out.println(sb.toString());
+    // }
+    // System.out.println("exp: " + exp);
+    // }
