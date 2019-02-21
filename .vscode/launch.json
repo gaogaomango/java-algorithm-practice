@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CombinationSum",
+      "request": "launch",
+      "mainClass": "CombinationSum",
+      "projectName": "leetCode_3e08a92f"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CountAndSay",
+      "request": "launch",
+      "mainClass": "CountAndSay",
+      "projectName": "leetCode_3e08a92f"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ValidSudoku",
       "request": "launch",
       "mainClass": "ValidSudoku",
