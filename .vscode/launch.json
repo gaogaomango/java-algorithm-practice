@@ -9,6 +9,13 @@
     },
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MultiplyStrings",
+      "request": "launch",
+      "mainClass": "MultiplyStrings",
+      "projectName": "java-algorithm-practice_429b3aed"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CombinationSum",
       "request": "launch",
       "mainClass": "CombinationSum",
