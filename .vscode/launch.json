@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - FirstMissingPositive",
+      "request": "launch",
+      "mainClass": "FirstMissingPositive",
+      "projectName": "leetCode_3e08a92f"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CombinationSum",
       "request": "launch",
       "mainClass": "CombinationSum",
